@@ -1,0 +1,142 @@
+:root{
+    --colour-base: #EC2729;
+    --colour-base-dark: #601011;
+    --colour-base-light: #B75C5D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background: white;
+    height: 100vh;
+
+}
+
+#container-main{
+    display: flex;
+    flex-direction: column;
+    background: url("/assets/img/bg-1.jpeg");
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#container-eas{
+    display: flex;
+    flex-direction: column;
+    background: var(--colour-base);
+    box-shadow: 0 8px 6px -6px black;
+    padding: 10px;
+    height: auto;
+    width: 700px;
+    margin: auto;
+    border-radius: 1%
+
+
+}
+
+#container-eas-title{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+}
+
+#container-eas-main{
+    background: black;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    border-top: 5px solid var(--colour-base-dark);
+    border-right: 5px solid var(--colour-base-light);
+    border-bottom: 5px solid var(--colour-base-light);
+    border-left: 5px solid var(--colour-base-dark);
+    
+}
+
+#container-eas-controls{
+    padding-top: 10px;
+    height: 100px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.btn-reset{
+    
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: white;
+}
+
+.slider-grid-size{
+    margin: 10px 0;
+    width: 100%;
+}
+
+#container-eas-colours{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    background: lightyellow;
+    height: 60px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: inset 2px 2px 4px 0px rgba(0,0,0,0.75);
+}
+
+.eas-colour-choice{
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+}
+
+.colour-choice-selection::after{
+    border: 5px solid white;
+    content: '';
+    display: inline-block;
+    height: 70%;
+    width: 70%; 
+}
+
+#colour-choice-1{
+    background: black;
+}
+
+#colour-choice-2{
+    background: blue;
+}
+#colour-choice-3{
+    background: yellow;
+}
+#colour-choice-4{
+    background: green;
+}
+#colour-choice-5{
+    background: pink;
+}
+#colour-choice-6{
+    background: purple;
+}
+#colour-choice-7{
+    background: red;
+}
+#colour-choice-8{
+    background: gray;
+}

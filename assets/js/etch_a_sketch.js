@@ -190,16 +190,16 @@ div.addEventListener('mouseenter', function(){
 function switchPaintControls(controlSelected){
     if(controlSelected == 0){
         document.getElementById("btn-brush-paint").style.background = 'url("assets/img/eas-btn-in.png") no-repeat';
-        document.getElementById("btn-brush-background").style.background = 'url("/assets/img/eas-btn-out.png") no-repeat';
-        document.getElementById("btn-brush-erase").style.background = 'url("/assets/img/eas-btn-out.png") no-repeat';
+        document.getElementById("btn-brush-background").style.background = 'url("assets/img/eas-btn-out.png") no-repeat';
+        document.getElementById("btn-brush-erase").style.background = 'url("assets/img/eas-btn-out.png") no-repeat';
     } else if(controlSelected == 1){
-        document.getElementById("btn-brush-paint").style.background = 'url("/assets/img/eas-btn-out.png") no-repeat';
-        document.getElementById("btn-brush-background").style.background = 'url("/assets/img/eas-btn-in.png") no-repeat';
-        document.getElementById("btn-brush-erase").style.background = 'url("/assets/img/eas-btn-out.png") no-repeat';
+        document.getElementById("btn-brush-paint").style.background = 'url("assets/img/eas-btn-out.png") no-repeat';
+        document.getElementById("btn-brush-background").style.background = 'url("assets/img/eas-btn-in.png") no-repeat';
+        document.getElementById("btn-brush-erase").style.background = 'url("assets/img/eas-btn-out.png") no-repeat';
     } else if(controlSelected == 2){
-        document.getElementById("btn-brush-paint").style.background = 'url("/assets/img/eas-btn-out.png") no-repeat';
-        document.getElementById("btn-brush-background").style.background = 'url("/assets/img/eas-btn-out.png") no-repeat';
-        document.getElementById("btn-brush-erase").style.background = 'url("/assets/img/eas-btn-in.png") no-repeat';
+        document.getElementById("btn-brush-paint").style.background = 'url("assets/img/eas-btn-out.png") no-repeat';
+        document.getElementById("btn-brush-background").style.background = 'url("assets/img/eas-btn-out.png") no-repeat';
+        document.getElementById("btn-brush-erase").style.background = 'url("assets/img/eas-btn-in.png") no-repeat';
     }
 }
 

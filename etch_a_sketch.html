@@ -8,6 +8,17 @@
     <body>
         <div id="container-main">
             <div id="container-eas">
+              <div id="container-settings-save">
+                <div id="container-save-window">
+                    <div id="container-settings-text">
+                      <textarea id="text-settings-clipboard" class="control-text-state"></textarea>
+                    </div>
+                    <div id="container-settings-controls">
+                      <button id="btn-settings-ok" class="btn-settings">OK</button>
+                      <button id="btn-settings-cancel" class="btn-settings">Cancel</button>
+                    </div>
+                  </div>
+                </div>
                 <div id="container-eas-title">
                     Etch-a-Sketch
                 </div>
@@ -26,6 +37,14 @@
                         </div>
                         <div id="container-eas-toolbar2">
                             <div id="container-tools-brushes" >
+                                <div id="container-canvas-states">
+                                    <div id="container-save-state">
+                                    <button id="btn-save-canvas" class="btn-states">SAVE</button>
+                                  </div>
+                                  <div id="container-load-state">
+                                    <button id="btn-load-canvas" class="btn-states">LOAD</button> 
+                                  </div>
+                                </div>
                                 <div id="display-colour-paint" class="display-colour">
                                     <input id="paint-colour-selector" class="input-colour-selector" type="color">
                                 </div>
@@ -34,6 +53,14 @@
                                 <button id="btn-brush-background" class="btn-tool-brush"><img class="img-btn-brush" src="assets/img/icon-fill.svg"/></button>
                                 <div id="display-colour-background" class="display-colour">
                                     <input id="background-colour-selector" class="input-colour-selector" type="color">
+                                </div>
+                                <div id="container-canvas-textstates">
+                                  <div id="container-savestring-state">
+                                    <button id="btn-savestring-canvas" class="btn-states">SHOW CODE</button>
+                                  </div>
+                                  <div id="container-loadstring-state">
+                                    <button id="btn-loadstring-canvas" class="btn-states">LOAD CODE</button> 
+                                  </div>
                                 </div>
                                 
                             </div>

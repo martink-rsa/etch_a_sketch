@@ -1,0 +1,24 @@
+{
+  "name": "etch_a_sketch",
+  "version": "1.0.0",
+  "description": "Etch-A-Sketch projected for TOP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martink-rsa/etch_a_sketch.git"
+  },
+  "author": "Martin K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martink-rsa/etch_a_sketch/issues"
+  },
+  "homepage": "https://github.com/martink-rsa/etch_a_sketch#readme",
+  "devDependencies": {
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
